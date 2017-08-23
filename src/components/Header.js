@@ -45,6 +45,7 @@ const styles = {
     // textAlign: 'center',
   },
   link: {
+    color: 'black',
     transition: 'all .5s',
     opacity: '.4',
     textDecoration: 'none',
