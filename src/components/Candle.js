@@ -26,6 +26,12 @@ const styles = {
     transition: 'all .75s',
     ':hover': {
       opacity: '.8',
+    },
+    '@media screen and (max-width: 1150px)': {
+      width: '800px',
+    },
+    '@media screen and (max-width: 820px)': {
+      width: '600px',
     }
     // backgroundImage: `url(${this.props.candlePic})`,
   },
@@ -48,7 +54,13 @@ const styles = {
     fontWeight: '700',
     color: 'white',
     width: '38%',
-    margin: '2rem'
+    margin: '2rem',
+    '@media screen and (max-width: 1150px)': {
+      fontSize: '1.2em',
+    },
+    '@media screen and (max-width: 820px)': {
+      fontSize: '1.0em',
+    }
   }
 }
 

@@ -28,11 +28,17 @@ const styles = {
   },
   shopWrapper: {
     // height: '100vh',
-    // border: '1px solid black',
+    border: '1px solid black',
     display: 'flex',
     flexDirection: 'column',
     width: '1100px',
     margin: '0 auto',
+    '@media screen and (max-width: 1150px)': {
+      width: '800px',
+    },
+    '@media screen and (max-width: 820px)': {
+      width: '600px',
+    }
   },
   h2: {
     fontSize: '2.5rem',
@@ -49,7 +55,7 @@ const styles = {
   spacer: {
     flex: 1,
     height: '100%',
-    // border: '1px solid red',
+    border: '1px solid red',
   }
 }
 

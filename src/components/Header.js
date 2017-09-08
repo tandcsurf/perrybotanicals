@@ -27,6 +27,12 @@ const styles = {
     display: 'flex',
     // border: '1px solid black',
     zIndex: 1,
+    '@media screen and (max-width: 1150px)': {
+      width: '800px',
+    },
+    '@media screen and (max-width: 820px)': {
+      width: '600px',
+    }
   },
   spacer: {
     flex: 2,
