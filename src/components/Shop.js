@@ -37,10 +37,11 @@ const styles = {
       width: '800px',
     },
     '@media screen and (max-width: 820px)': {
-      width: '600px',
+      width: 'auto',
     }
   },
   h2: {
+    margin: '.5rem',
     fontSize: '2.5rem',
     fontFamily: 'Playfair Display',
     fontWeight: '400',

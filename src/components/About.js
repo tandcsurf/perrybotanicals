@@ -40,7 +40,7 @@ const styles = {
       width: '800px',
     },
     '@media screen and (max-width: 820px)': {
-      width: '600px',
+      width: 'auto',
     }
   },
   about: {
@@ -61,6 +61,7 @@ const styles = {
     // border: '1px solid pink',
   },
   h2: {
+    margin: '.5rem',
     fontSize: '3em',
     fontFamily: 'Playfair Display',
     fontWeight: '400',
@@ -73,6 +74,7 @@ const styles = {
     paddingBottom: '5px',
   },
   p: {
+    margin: '.5rem',
     lineHeight: '2.5rem',
     fontSize: '.8em',
     fontFamily: 'Hind Madurai SemiBold, sans-serif',
@@ -82,6 +84,9 @@ const styles = {
   spacer: {
     flex: '1',
     border: '1px solid red',
+    '@media screen and (max-width: 820px)': {
+      display: 'none',
+    }
   }
 }
 

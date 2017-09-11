@@ -21,17 +21,17 @@ const styles = {
     height: '560px',
     // border: '1px solid black',
     display: 'flex',
-    width: '1100px',
+    width: 'auto',
     margin: '1rem auto 1rem auto',
     transition: 'all .75s',
     ':hover': {
       opacity: '.8',
     },
     '@media screen and (max-width: 1150px)': {
-      width: '800px',
+      width: 'auto',
     },
     '@media screen and (max-width: 820px)': {
-      width: '600px',
+      width: 'auto',
     }
     // backgroundImage: `url(${this.props.candlePic})`,
   },
@@ -46,20 +46,28 @@ const styles = {
     ':hover': {
       opacity: '1',
     },
+    '@media screen and (max-width: 820px)': {
+      flexDirection: 'column',
+    },
   },
   description: {
+    margin: '.5rem',
     lineHeight: '2.5rem',
     fontSize: '1.4em',
     fontFamily: 'Hind Madurai SemiBold, sans-serif',
     fontWeight: '700',
     color: 'white',
     width: '38%',
-    margin: '2rem',
+    // margin: '2rem',
     '@media screen and (max-width: 1150px)': {
+      lineHeight: '1.3rem',
       fontSize: '1.2em',
     },
     '@media screen and (max-width: 820px)': {
       fontSize: '1.0em',
+    },
+    '@media screen and (max-width: 450px)': {
+      width: '95%',
     }
   }
 }

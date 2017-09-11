@@ -12,6 +12,9 @@ class Header extends Component {
             <a ref="about" href="#about" style={styles.link}>About</a>
             <a ref="shop" href="#shop" style={styles.link}>Shop</a>
           </div>
+          <div style={styles.hamburger}>
+            <button>///</button>
+          </div>
         </div>
     );
   }
@@ -25,17 +28,22 @@ const styles = {
     margin: '0 auto',
     height: 50,
     display: 'flex',
-    // border: '1px solid black',
+    border: '1px solid black',
     zIndex: 1,
     '@media screen and (max-width: 1150px)': {
       width: '800px',
     },
     '@media screen and (max-width: 820px)': {
-      width: '600px',
+      width: 'auto',
+      justifyContent: 'flex-end',
+      alignItems: 'center',
     }
   },
   spacer: {
     flex: 2,
+    '@media screen and (max-width: 820px)': {
+      display: 'none',
+    }
     // border: '1px solid yellow',
   },
   links: {
@@ -44,18 +52,21 @@ const styles = {
     justifyContent: 'space-around',
     alignItems: 'center',
     flex: 1,
-    // border: '1px solid red',
+    border: '1px solid red',
     fontFamily: 'sans-serif',
     fontWeight: '800',
     zIndex: 1,
     // textAlign: 'center',
+    '@media screen and (max-width: 820px)': {
+      display: 'none',
+    }
   },
   link: {
     color: 'black',
     transition: 'all .5s',
     opacity: '.4',
     textDecoration: 'none',
-    // border: '1px solid black',
+    border: '1px solid black',
     ':active': {
       textDecoration: 'none',
       color: 'black',
@@ -73,6 +84,15 @@ const styles = {
       color: 'black',
       opacity: '.7',
     },
+  },
+  hamburger: {
+    '@media screen and (min-width: 821px)': {
+      display: 'none',
+    },
+    '@media screen and (max-width: 820px)': {
+      marginRight: '30px',
+      zIndex: 99,
+    }
   }
 }
 
