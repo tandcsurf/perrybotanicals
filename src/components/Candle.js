@@ -32,6 +32,7 @@ const styles = {
     },
     '@media screen and (max-width: 820px)': {
       width: 'auto',
+      height: '400px',
     }
     // backgroundImage: `url(${this.props.candlePic})`,
   },
@@ -42,12 +43,12 @@ const styles = {
     height: '100%',
     color: 'white',
     opacity: '0',
+    flexDirection: 'column',
     transition: 'all .75s',
     ':hover': {
       opacity: '1',
     },
     '@media screen and (max-width: 820px)': {
-      flexDirection: 'column',
     },
   },
   description: {
@@ -57,17 +58,17 @@ const styles = {
     fontFamily: 'Hind Madurai SemiBold, sans-serif',
     fontWeight: '700',
     color: 'white',
-    width: '38%',
+    width: '95%',
     // margin: '2rem',
     '@media screen and (max-width: 1150px)': {
-      lineHeight: '1.3rem',
+      lineHeight: '2rem',
       fontSize: '1.2em',
     },
     '@media screen and (max-width: 820px)': {
       fontSize: '1.0em',
     },
     '@media screen and (max-width: 450px)': {
-      width: '95%',
+      lineHeight: '1.3rem',
     }
   }
 }
