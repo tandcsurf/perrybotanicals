@@ -34,7 +34,7 @@ const styles = {
     minHeight: '70vh',
     width: '1100px',
     margin: '0 auto',
-    border: '1px solid black',
+    // border: '1px solid black',
     display: 'flex',
     '@media screen and (max-width: 1150px)': {
       width: '800px',
@@ -83,7 +83,7 @@ const styles = {
   },
   spacer: {
     flex: '1',
-    border: '1px solid red',
+    // border: '1px solid red',
     '@media screen and (max-width: 820px)': {
       display: 'none',
     }

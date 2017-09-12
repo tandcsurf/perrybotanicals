@@ -28,7 +28,7 @@ const styles = {
   },
   shopWrapper: {
     // height: '100vh',
-    border: '1px solid black',
+    // border: '1px solid black',
     display: 'flex',
     flexDirection: 'column',
     width: '1100px',
@@ -56,7 +56,7 @@ const styles = {
   spacer: {
     flex: 1,
     height: '100%',
-    border: '1px solid red',
+    // border: '1px solid red',
   }
 }
 

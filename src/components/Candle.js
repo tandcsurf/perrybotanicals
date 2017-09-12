@@ -2,10 +2,18 @@ import React, { Component } from 'react';
 import Radium from 'radium';
 
 class Candle extends Component {
+  constructor() {
+    super()
+    this.showDescription = this.showDescription.bind(this)
+  }
+
+  showDescription() {
+    this.descriptionWrapper.style.opacity = 1;
+  }
   render() {
     return (
       <div style={{...styles.candleWrapper, backgroundImage: `url(${this.props.candlePic})`,}}>
-        <div ref="description" style={styles.descriptionWrapper}>
+        <div key={this.props.oils} ref={descriptionWrapper => this.descriptionWrapper = descriptionWrapper} style={styles.descriptionWrapper} onClick={this.showDescription}>
           <p style={styles.description}>{this.props.description}</p>
           <p style={styles.description}>{this.props.oils}</p>
         </div>

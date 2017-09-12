@@ -26,7 +26,7 @@ const styles = {
     height: '70vh',
     width: '1100px',
     margin: '0 auto',
-    border: '1px solid black',
+    // border: '1px solid black',
     display: 'flex',
     '@media screen and (max-width: 1150px)': {
       width: '800px',
@@ -40,7 +40,7 @@ const styles = {
     textAlign: 'center',
     alignItems: 'flex-end',
     justifyContent: 'left',
-    border: '1px solid blue',
+    // border: '1px solid blue',
     flex: 2,
     height: '100%',
     '@media screen and (max-width: 1150px)': {
@@ -55,9 +55,9 @@ const styles = {
     }
   },
   titleLogo: {
-    border: '1px solid black',
+    // border: '1px solid black',
     display: 'flex',
-    textAlign: 'center',
+    textAlign: 'left',
     alignItems: 'center',
     justifyContent: 'center',
     '@media screen and (max-width: 1150px)': {
@@ -67,12 +67,12 @@ const styles = {
     '@media screen and (max-width: 820px)': {
       flexDirection: 'column',
       // marginLeft: '1rem',
-      border: '1px solid black',
+      // border: '1px solid black',
     }
   },
   h2: {
     fontSize: '4rem',
-    border: '1px solid black',
+    // border: '1px solid black',
     // marginBottom: '6rem',
     // marginRight: '2rem',
     '@media screen and (max-width: 1150px)': {
@@ -86,7 +86,7 @@ const styles = {
   eagle: {
     // marginBottom: '3rem',
     zIndex: '-1',
-    border: '1px solid black',
+    // border: '1px solid black',
     '@media screen and (max-width: 1150px)': {
       order: 1,
       margin: 0,
@@ -94,7 +94,7 @@ const styles = {
   },
   spacer: {
     flex: 1,
-    border: '1px solid red',
+    // border: '1px solid red',
     '@media screen and (max-width: 820px)': {
       display: 'none',
     },
