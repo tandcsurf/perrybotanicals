@@ -1,11 +1,13 @@
 {
   "main.css": "static/css/main.65027555.css",
   "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.5173238d.js",
-  "main.js.map": "static/js/main.5173238d.js.map",
+  "main.js": "static/js/main.61b7abd3.js",
+  "main.js.map": "static/js/main.61b7abd3.js.map",
   "static\\media\\desert.jpg": "static/media/desert.e931a1b1.jpg",
   "static\\media\\eagleflower.png": "static/media/eagleflower.65362c59.png",
   "static\\media\\forest.jpg": "static/media/forest.69c28bcd.jpg",
   "static\\media\\lilsnuggler.jpg": "static/media/lilsnuggler.b53df698.jpg",
-  "static\\media\\spiceworld.jpg": "static/media/spiceworld.a8198b87.jpg"
+  "static\\media\\spiceworld.jpg": "static/media/spiceworld.a8198b87.jpg",
+  "static\\media\\woodland2.png": "static/media/woodland2.ffd7d7b7.png",
+  "static\\media\\woodlandMobile.png": "static/media/woodlandMobile.6ba5bc4b.png"
 }
