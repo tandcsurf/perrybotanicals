@@ -3,6 +3,8 @@ import Radium from 'radium';
 import Candle from './Candle.js';
 import lilSnuggler from '../lilsnuggler.jpg';
 import spiceWorld from '../spiceworld.jpg';
+import woodlandRomp from '../woodland2.png';
+import woodlandMobile from '../woodlandMobile.png';
 import { descriptions } from '../descriptions.js';
 
 class Shop extends Component {
@@ -11,9 +13,9 @@ class Shop extends Component {
       <div id="shop" style={styles.wrapperWrapper}>
         <div style={styles.shopWrapper}>
           <h2 style={styles.h2}><span style={styles.underlining}>Our Collection</span></h2>
-          <Candle description={descriptions.woodlandRomp} oils={descriptions.woodlandRompOils} candlePic={lilSnuggler}/>
-          <Candle description={descriptions.lilSnuggler} oils={descriptions.lilSnugglerOils} candlePic={spiceWorld}/>
-          <Candle description={descriptions.spiceWorld} oils={descriptions.spiceWorldOils} candlePic={lilSnuggler}/>
+          <Candle description={descriptions.woodlandRomp} oils={descriptions.woodlandRompOils} candlePic={woodlandRomp} candlePicMobile={woodlandMobile} />
+          <Candle description={descriptions.lilSnuggler} oils={descriptions.lilSnugglerOils} candlePic={woodlandRomp} candlePicMobile={woodlandMobile} />
+          <Candle description={descriptions.spiceWorld} oils={descriptions.spiceWorldOils} candlePic={woodlandRomp} candlePicMobile={woodlandMobile} />
         </div>
       </div>
     );
